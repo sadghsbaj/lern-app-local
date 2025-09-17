@@ -1,0 +1,106 @@
+/* ~~~~~~ General ~~~~~~ */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: var(--ff-default);
+    font-size: var(--fs-default);
+    line-height: var(--lh-default);
+    color: var(--clr-text-primary);
+    background-color: var(--clr-page-bg);
+
+    height: 100dvh;
+    min-height: 100%;
+
+    -webkit-font-smoothing: antialiased;
+    transition-behavior: allow-discrete;
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+    scroll-behavior: smooth;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+a,
+textarea,
+select {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    font: inherit;
+    color: var(--clr-text-primary);
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+    line-height: var(--lh-s);
+}
+
+p {
+    text-wrap: pretty;
+}
+
+:focus-visible {
+    border: none;
+    box-shadow: none;
+
+    outline: 2px solid var(--clr-primary-500);
+    outline-offset: 2px;
+}
+
+[disabled], :disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+}

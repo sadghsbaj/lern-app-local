@@ -1,0 +1,7 @@
+@import 'core/colors.css';
+@import 'core/variables.css';
+@import 'core/base.css';
+
+@import 'components/summary.css';
+@import 'components/glossar.css';
+@import 'components/mc-questions.css';

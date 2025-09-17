@@ -1,0 +1,94 @@
+:root {
+    /* ~~~~~~ Typography ~~~~~~ */
+    /* Font Family */
+    --ff-default: 'Inter', sans-serif;
+    --ff-mono: 'JetBrains Mono', monospace;
+
+    /* Font Size */
+    --fs-xs:    0.75rem;
+    --fs-s:     0.875rem;
+    --fs-m:     1rem;
+    --fs-l:     1.125rem;
+    --fs-xl:    1.25rem;
+    --fs-2xl:   1.75rem;
+    --fs-3xl:   2rem;
+    --fs-4xl:   2.75rem;
+    --fs-5xl:   3rem;
+
+    --fs-default: var(--fs-m)
+
+    /* Schriftstärken */
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+
+    /* Line Height */
+    --lh-s: 1.25;
+    --lh-m: 1.5;
+    --lh-l: 1.75;
+
+    --lh-none: 1;
+    --lh-default: var(--lh-m);
+
+    /* Letter Spacing */
+    --ls-s: 0.05em;
+    --ls-m: 0.1em;
+    --ls-l: 0.15em;
+
+    --ls-default: 0;
+
+    /* ~~~~~~ Sizes ~~~~~~ */
+    /* General Sizes */
+    --s-1: 4px;
+    --s-2: 8px;
+    --s-3: 12px;
+    --s-4: 16px;
+    --s-5: 20px;
+    --s-6: 24px;
+    --s-7: 28px;
+    --s-8: 32px;
+    --s-9: 40px;
+    --s-10: 48px;
+    --s-11: 64px;
+    --s-12: 80px;
+    --s-13: 96px;
+
+    /* Container Sizes */
+    --cont-wd-xs: 480px;
+    --cont-wd-s: 720px;
+    --cont-wd-m: 1140px;
+    --cont-wd-l: 1440px;
+    --cont-wd-xl: 1920px;
+
+    /* ~~~~~~ Transition ~~~~~~ */
+    /* Duration */
+    --dur-fast: 150ms;
+    --dur-normal: 250ms;
+    --dur-slow: 350ms;
+
+    /* Animation */
+    --anm-default: cubic-bezier(0.23, 1, 0.32, 1);
+    --anm-dec: cubic-bezier(0, 0, 0.58, 1);
+    --anm-acc: cubic-bezier(0.42, 0, 1, 1);
+
+    /* ~~~~~~ Other ~~~~~~ */
+    /* Border Width */
+    --bw-s: 1px;
+    --bw-m: 2px;
+    --bw-l: 4px;
+
+    /* Border Radius */
+    --br-xs: 2px;
+    --br-s: 4px;
+    --br-m: 8px;
+    --br-l: 12px;
+    --br-xl: 16px;
+
+    /* Shadow */
+    --bs-s: 0 1px 2px 0 hsla(210, 15%, 15%, 0.05);
+    --bs-m: 0 4px 6px -1px hsla(210, 15%, 15%, 0.1), 0 2px 4px -2px hsla(210, 15%, 15%, 0.1);
+    --bs-l: 0 10px 15px -3px hsla(210, 15%, 15%, 0.1), 0 4px 6px -4px hsla(210, 15%, 15%, 0.1);
+    --bs-xl: 0 20px 25px -5px hsla(210, 15%, 15%, 0.1), 0 8px 10px -6px hsla(210, 15%, 15%, 0.1);
+    --bs-inner: inset 0 2px 4px 0 hsla(210, 15%, 15%, 0.05);
+}

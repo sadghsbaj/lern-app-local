@@ -1,0 +1,98 @@
+:root {
+  /* =================================================================
+   * PRIMÄRFARBEN
+   * ================================================================= */
+  --clr-primary-100: hsl(215, 90%, 94%);
+  --clr-primary-200: hsl(215, 92%, 88%);
+  --clr-primary-300: hsl(215, 91%, 82%);
+  --clr-primary-400: hsl(215, 88%, 76%);
+  --clr-primary-500: hsl(215, 80%, 70%); /* Haupt-Primärfarbe */
+  --clr-primary-600: hsl(215, 70%, 62%);
+  --clr-primary-700: hsl(215, 65%, 55%);
+  --clr-primary-800: hsl(215, 60%, 48%);
+  --clr-primary-900: hsl(215, 55%, 40%);
+
+  /* =================================================================
+   * GRAUTÖNE
+   * ================================================================= */
+  --clr-grey-50:  hsl(210, 20%, 98%);
+  --clr-grey-100: hsl(210, 16%, 93%);
+  --clr-grey-200: hsl(210, 15%, 89%);
+  --clr-grey-300: hsl(210, 14%, 80%);
+  --clr-grey-400: hsl(210, 12%, 70%);
+  --clr-grey-500: hsl(210, 10%, 60%);
+  --clr-grey-600: hsl(210, 8%, 50%);
+  --clr-grey-700: hsl(210, 10%, 40%);
+  --clr-grey-800: hsl(210, 12%, 25%);
+  --clr-grey-900: hsl(210, 15%, 15%);
+
+  /* =================================================================
+   * GRUNDLEGENDE SEITENFARBEN
+   * ================================================================= */
+  --clr-page-bg: hsl(30, 25%, 98%); /* Wärmeres, sanftes Off-White */
+  --clr-page-bg-content: hsl(0, 0%, 100%); /* Reines Weiß für den Lesebereich */
+  --clr-page-bg-accent: var(--clr-primary-100);
+  --clr-page-scrollbar-thumb: var(--clr-primary-300);
+  --clr-page-scrollbar-track: var(--clr-primary-100);
+
+  /* =================================================================
+   * TEXTFARBEN
+   * ================================================================= */
+  --clr-text-primary: var(--clr-grey-900);
+  --clr-text-secondary: var(--clr-grey-700);
+  --clr-text-muted: var(--clr-grey-500);
+  --clr-text-accent: var(--clr-primary-700);
+  --clr-text-on-primary-bg: hsl(0, 0%, 100%);
+
+  /* =================================================================
+   * RANDFARBEN (BORDERS) - HÖHERER KONTRAST
+   * ================================================================= */
+  --clr-border-primary: var(--clr-grey-300); /* War vorher grey-200 */
+  --clr-border-secondary: var(--clr-grey-200);
+  --clr-border-accent: var(--clr-primary-500);
+
+  /* =================================================================
+   * FOKUS & INTERAKTIVE ELEMENTE
+   * ================================================================= */
+  --clr-focus-ring: hsla(215, 88%, 76%, 0.7);
+  --clr-link-default: var(--clr-primary-700);
+  --clr-link-hover: var(--clr-primary-900);
+
+  /* --- Primärer Button (wichtigste Aktion) --- */
+  --clr-button-primary-bg: var(--clr-primary-700);
+  --clr-button-primary-text: var(--clr-text-on-primary-bg);
+  --clr-button-primary-hover-bg: var(--clr-primary-900);
+
+  /* --- Sekundärer Button (weniger wichtige Aktion) --- */
+  --clr-button-secondary-bg: var(--clr-grey-200);
+  --clr-button-secondary-text: var(--clr-text-primary);
+  --clr-button-secondary-hover-bg: var(--clr-grey-300);
+
+  /* =================================================================
+   * DOKUMENTENSPEZIFISCHE FARBEN
+   * ================================================================= */
+
+  /* Hervorhebungen (z.B. `<mark>`) */
+  --clr-doc-highlight-bg: hsla(50, 100%, 85%, 0.8);
+  --clr-doc-highlight-text: var(--clr-grey-900);
+
+  /* Code-Blöcke */
+  --clr-doc-code-bg: var(--clr-grey-50);
+  --clr-doc-code-text: var(--clr-grey-800);
+  --clr-doc-code-border: var(--clr-grey-300);
+
+  /* Zitate (z.B. `<blockquote>`) */
+  --clr-doc-quote-bg: var(--clr-primary-100);
+  --clr-doc-quote-text: var(--clr-primary-900);
+  --clr-doc-quote-border: var(--clr-primary-400);
+
+  /* Tabellen */
+  --clr-doc-table-header-bg: var(--clr-primary-100);
+  --clr-doc-table-header-text: var(--clr-primary-900);
+  --clr-doc-table-row-bg-odd: hsl(0, 0%, 100%);
+  --clr-doc-table-row-bg-even: var(--clr-grey-50);
+  --clr-doc-table-border: var(--clr-grey-300);
+
+  /* Trennlinien (z.B. `<hr>`) */
+  --clr-doc-divider: var(--clr-border-primary);
+}
